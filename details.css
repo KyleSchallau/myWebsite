@@ -1,0 +1,73 @@
+#wrapper { background-color: lightskyblue; 
+           font-family: Arial;}
+#aboutme { text-align: center; 
+           margin-left: auto;
+           margin-right: auto;
+          }
+
+header { color:black;;
+         font-size: 50px;
+         text-align: center;
+         border-bottom: 20px solid white; /*-- A red solid border that is 20px wide --*/  
+         padding: 5px; /*-- The space between the text and border --*/
+         background-color: lightblue; /*-- The color of the background inside of the border. --*/
+         /*-- sets the space after the border. --*/
+        }
+
+
+/*-- The Navigation --*/
+nav { text-align: center;
+      padding: 2px;
+      margin: 0;
+    }
+
+/*-- The Ancher element. The link does not have an underline. --*/
+nav a { text-decoration: none;
+        color: black; }
+
+nav li { list-style-type: none;
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;;
+        margin: 0;
+        outline: solid white;
+        background-color: lightblue;
+      }
+
+#marginalign { background-color: lightblue;
+           margin-top: 0;
+           padding-bottom: 40px;
+           padding-top: 0;
+           border-top: 2px solid white;
+           border-bottom: 2px solid white;
+           height: 5px;
+           line-height: 0;
+         }
+h2 { margin-left: 150px;}
+h3 { background-color: white;
+     padding: 10px;
+     margin-right: 0px;
+     margin-left: 0px;}
+     
+body { margin-right: 100px;
+       margin-left: 100px;
+       background-color: white;
+       border: 10px solid gray;
+     }
+
+footer { border-top: 20px solid white;
+         background-color: lightblue; 
+         padding: 10px;
+         height: 50px;
+         text-align: center;
+        }
+
+#exp1 { margin-left: 150px; margin-right: 150px;}
+
+#me { border-radius: 50%;
+      display: block; 
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;}
+
+p {font-size: 12pt;}
