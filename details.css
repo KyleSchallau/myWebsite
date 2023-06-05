@@ -11,20 +11,17 @@
 header {
   color: black;
   text-align: center;
-  border-bottom: 20px solid white; /*-- A red solid border that is 20px wide --*/
-  padding: 5px; /*-- The space between the text and border --*/
-  background-color: lightblue; /*-- The color of the background inside of the border. --*/
-  /*-- sets the space after the border. --*/
+  border-bottom: 20px solid white;
+  padding: 5px;
+  background-color: lightblue;
 }
 
-/*-- The Navigation --*/
 nav {
   text-align: center;
   padding: 2px;
   margin: 0;
 }
 
-/*-- The Ancher element. The link does not have an underline. --*/
 nav a {
   text-decoration: none;
   color: black;
@@ -116,6 +113,9 @@ p {
   font-size: 12pt;
 }
 
+#mobile { display: none; }
+#desktop { display: inline; }
+
 @media screen and (min-width: 800px) {
   body {
     margin-right: 100px;
@@ -161,4 +161,9 @@ p {
   h3 {
     padding-left: 1rem;
   }
+}
+
+@media screen and (max-width: 600px) {
+	 #mobile { display: inline; }
+	 #desktop { display: none; }
 }
